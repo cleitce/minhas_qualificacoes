@@ -1,8 +1,26 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  .divtitles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:chocolate;
+    padding: 20px;
+  }
+  
+  .divmain{
+    display:flex;
+  }
 
-a {
-  color: #00B7FF;
-}
+  .divcol1{
+    background-color: yellow;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: #000;
+  }
+
+  .divcol2{
+    background-color: blue;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: #ffffff;
+  }
