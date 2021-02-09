@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+
+  <style>
+    .divmain{
+      display:flex;
+    }
+
+    .divcol1{
+      background-color: yellow;
+      width: 50%;
+    }
+
+    .divcol2{
+      background-color: blue;
+      width: 50%;
+    }    
+
+  </style>
+
+</head>
+<body>
+  <h1>Minhas qualificações</h1>
+  <div class="divmain">
+    <div class="divcol1">Primeira Coluna</div>
+    <div class="divcol2">Segunda Coluna</div>
+  </div>
+</body>
 </html>
+
