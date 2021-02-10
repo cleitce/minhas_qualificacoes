@@ -35,3 +35,9 @@ test('Ao digitar um CPF 11111111111, o mesmo precisa retornar falso', () => {
   var cliente = new Cliente("Danilo", "11111111111")
   expect(cliente.validarCPF()).toBe(false);
 });
+
+
+test('Ao não retornar um CPF 11111111111, o mesmo precisa retornar falso', () => {
+  var cliente = new Cliente("Danilo", undefined)
+  expect(cliente.validarCPF()).toBe(false);
+});
